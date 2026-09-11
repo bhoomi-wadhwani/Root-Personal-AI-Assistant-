@@ -1,0 +1,29 @@
+# Secrets & credentials — NEVER commit these
+.env
+gmail_credentials.json
+gmail_token.json
+linkedin_token.json
+
+# User data
+memory/users/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
